@@ -34,7 +34,7 @@
   "tensura.skill.flame_manipulation.description": "§bPassive§r: fire abilities +50%.\n§eHold§r: breathe fire, 8 damage (20 mastered), sets targets alight.",
   "tensura.skill.flame_transform.description": "Merge with fire: everything within 5 blocks takes 2 damage a second and catches fire. Can light blocks around you.\n§eHold§r to keep it up.",
   "tensura.skill.formhide.description": "Hides your presence (Concealment I) so mobs struggle to notice you. 15 aura.\n§eHold§r to stay hidden.",
-  "tensura.skill.gate.description": "Opens a portal joining two places. How the endpoints are chosen is not checked.\n§eHold 15s, release§r. Cooldown 20s (10 mastered).",
+  "tensura.skill.gate.description": "Travel to saved places.\n§eHold 15s, release§r: opens the Spatial Movement menu.\n§6Warp Points§r: §eSave location§r to remember where you stand; pick one and §eWarp§r (5s charge).\n§6Warp Pads§r: travel to warp pads you have placed.\nCost grows with distance.",
   "tensura.skill.gourmet.description": "Eat foes for their skills and EP.\n§6Predation§r §epress§r: devouring mist. §esneak+press§r: also eat None/Blocks/Fluid/All.\n§6Corrosion§r §ehold§r: hurts all within 5.\n§6Stomach§r §epress§r: storage.\n§6Receive§r §epress§r on a subordinate: copy its skills.\n§6Provide§r: no effect found.",
   "tensura.skill.gravity_attack_resistance.description": "§bPassive§r: always on.\n§7Ignore weaker gravity-based damage or reduce the damage from stronger attacks.",
   "tensura.skill.gravity_field.description": "Lighter gravity: Speed III and Slow Falling for 60s.\n§6Self-radius§r §epress§r: on you. §esneak+press§r: end it.\n§6Field§r modes §epress§r: a sphere where allies get the same and enemies get Slowness and Burden. §esneak+press§r looking at it: remove.",

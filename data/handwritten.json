@@ -31,7 +31,7 @@
   "tensura.skill.flame_manipulation.description": "§bPassive§r: fire abilities +50%.\n§eHold§r: breathe fire, 8 damage (20 mastered), sets targets alight.",
   "tensura.skill.flame_transform.description": "Merge with fire: everything within 5 blocks takes 2 damage a second and catches fire. Can light blocks around you.\n§eHold§r to keep it up.",
   "tensura.skill.formhide.description": "Hides your presence (Concealment I) so mobs struggle to notice you. 15 aura.\n§eHold§r to stay hidden.",
-  "tensura.skill.gate.description": "Opens a portal joining two places. How the endpoints are chosen is not checked.\n§eHold 15s, release§r. Cooldown 20s (10 mastered).",
+  "tensura.skill.gate.description": "Travel to saved places.\n§eHold 15s, release§r: opens the Spatial Movement menu.\n§6Warp Points§r: §eSave location§r to remember where you stand; pick one and §eWarp§r (5s charge).\n§6Warp Pads§r: travel to warp pads you have placed.\nCost grows with distance.",
   "tensura.skill.gravity_flight.description": "Fly toward where you look; momentum carries on after you let go. 5 magicule.\n§eHold§r to fly.",
   "tensura.skill.gravity_manipulation.description": "§bPassive§r: gravity abilities +50%, and free flight without holding a key.\n§ePress§r to toggle.",
   "tensura.skill.haze.description": "Stronger concealment (Concealment II): hides you even from keen senses. 20 aura.\n§ePress§r or §ehold§r; toggles once mastered.",
