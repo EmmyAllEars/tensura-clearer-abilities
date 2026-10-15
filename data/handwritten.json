@@ -1,0 +1,6 @@
+{
+  "tensura.skill.haki.description": "Scares anything under half your EP; far weaker foes die of fear.\n§eHold§r: aura on, 15 blocks.\n§eScroll§r (mastered): Power Scale.",
+  "tensura.skill.megiddo.description": "Water lenses focus sunbeams, 150 damage each.\n§eHold 7s, release§r: summon.\n§6Single§r: §epress§r to fire at target; §esneak+press§r to dismiss.\n§6Auto§r: 9 lenses fire on their own for 30s.",
+  "tensura.skill.gourmet.description": "Eat foes for their skills and EP.\n§6Predation§r §epress§r: devouring mist. §esneak+press§r: also eat None/Blocks/Fluid/All.\n§6Corrosion§r §ehold§r: hurts all within 5.\n§6Stomach§r §epress§r: storage.\n§6Receive§r §epress§r on a subordinate: copy its skills.\n§6Provide§r: no effect found.",
+  "mysticism.skill.exoskeleton.description": "Insect plating; armor fits over it.\n§eHold§r to use. Once mastered, §epress§r to toggle."
+}
