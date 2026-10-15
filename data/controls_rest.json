@@ -1,0 +1,4458 @@
+{
+ "tensura:absolute_severance": {
+  "class": "AbsoluteSeveranceSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "absolute_severance.coat",
+   "absolute_severance.projectile"
+  ],
+  "chain": [
+   "AbsoluteSeveranceSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:absorb_and_dissolve": {
+  "class": null
+ },
+ "tensura:acid_shell": {
+  "class": "AcidShellMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AcidShellMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:aerial_blade": {
+  "class": "AerialBladeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AerialBladeMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:agility": {
+  "class": "AgilityMagic",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AgilityMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:air_flight": {
+  "class": "AirFlightArt",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AirFlightArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:airflow_shut": {
+  "class": "AirflowShutMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "airflow_shut.expand"
+  ],
+  "chain": [
+   "AirflowShutMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:analyst": {
+  "class": "AnalystSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "analyst.appraisal",
+   "analyst.analyze"
+  ],
+  "chain": [
+   "AnalystSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:analyze": {
+  "class": "AnalyzeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AnalyzeMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:anti_magic_area": {
+  "class": "AntiMagicAreaMagic",
+  "shift": [
+   "onHeld",
+   "onPressed",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AntiMagicAreaMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:anti_shock_area": {
+  "class": "AntiShockAreaMagic",
+  "shift": [
+   "onHeld",
+   "onPressed",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AntiShockAreaMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:antidote": {
+  "class": "AntidoteMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AntidoteMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:aura_slash": {
+  "class": "AuraSlashArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AuraSlashArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:aura_sword": {
+  "class": "AuraSwordArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "AuraSwordArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:barrier": {
+  "class": "BarrierMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BarrierMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:battlewill": {
+  "class": "BattlewillArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BattlewillArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:beast_transformation": {
+  "class": "BeastTransformationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BeastTransformationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:berserk": {
+  "class": "BerserkSkill",
+  "shift": [
+   "onTakenDamage",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "berserk.rage",
+   "berserk.mad_ogre"
+  ],
+  "chain": [
+   "BerserkSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:berserker": {
+  "class": "BerserkerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BerserkerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:bewilder": {
+  "class": "BewilderSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 4,
+  "modeids": [
+   "bewilder.target",
+   "bewilder.area",
+   "bewilder.charm",
+   "bewilder.kill"
+  ],
+  "chain": [
+   "BewilderSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:black_flame": {
+  "class": "BlackFlameSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 4,
+  "modeids": [
+   "black_flame.breath",
+   "black_flame.ball",
+   "black_flame.hell_flare",
+   "black_flame.limited_hell_flare"
+  ],
+  "chain": [
+   "BlackFlameSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:black_lightning": {
+  "class": "BlackLightningSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "black_lightning.default",
+   "black_lightning.weak",
+   "black_lightning.strong",
+   "black_lightning.blast",
+   "black_lightning.storm"
+  ],
+  "chain": [
+   "BlackLightningSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:blood_mist": {
+  "class": "BloodMistSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "blood_mist.ray"
+  ],
+  "chain": [
+   "BloodMistSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:body_armor": {
+  "class": "BodyArmorSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BodyArmorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:body_double": {
+  "class": "BodyDoubleSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "body_double.creation",
+   "body_double.control"
+  ],
+  "chain": [
+   "BodyDoubleSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:burden": {
+  "class": "BurdenMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "BurdenMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:butcher": {
+  "class": "ButcherSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [],
+  "chain": [
+   "ButcherSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:captivator": {
+  "class": "CaptivatorSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "captivator.performance",
+   "captivator.masquerade",
+   "captivator.unveil",
+   "captivator.star_power"
+  ],
+  "chain": [
+   "CaptivatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:chain_explosion": {
+  "class": "ChainExplosionMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ChainExplosionMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:charm": {
+  "class": "CharmSkill",
+  "shift": [
+   "charm"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "CharmSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:chef": {
+  "class": "ChefSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ChefSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:chosen_one": {
+  "class": "ChosenOneSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "chosen_one.haki",
+   "chosen_one.charisma"
+  ],
+  "chain": [
+   "ChosenOneSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:clairvoyance": {
+  "class": "ClairvoyanceMagic",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ClairvoyanceMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:clangorous_soul": {
+  "class": "ClangorousSoulSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ClangorousSoulSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:coalescence": {
+  "class": "CoalescenceSkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "coalescence.fixation",
+   "coalescence.solidification",
+   "coalescence.eternal_domain"
+  ],
+  "chain": [
+   "CoalescenceSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:confusion": {
+  "class": "ConfusionMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ConfusionMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:constant": {
+  "class": "ConstantSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "constant.health",
+   "constant.physical",
+   "constant.destruction",
+   "constant.energy"
+  ],
+  "chain": [
+   "ConstantSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:cook": {
+  "class": "CookSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [
+   "cook.chaotic_fate"
+  ],
+  "chain": [
+   "CookSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:corroder": {
+  "class": "CorroderSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "corroder.dissolve",
+   "corroder.cross_corrosion"
+  ],
+  "chain": [
+   "CorroderSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:corrosion_transform": {
+  "class": "CorrosionTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "CorrosionTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:crasher": {
+  "class": "CrasherSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "crasher.destroyer_haki",
+   "crasher.dimension_hopper"
+  ],
+  "chain": [
+   "CrasherSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:create_greater_undead": {
+  "class": "CreateGreaterUndeadMagic",
+  "shift": [
+   "getSpawnNumber"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "create_undead.zombie",
+   "create_undead.skeleton",
+   "create_undead.random"
+  ],
+  "chain": [
+   "CreateGreaterUndeadMagic",
+   "CreateUndeadMagic"
+  ]
+ },
+ "tensura:create_lesser_undead": {
+  "class": "CreateLesserUndeadMagic",
+  "shift": [
+   "getSpawnNumber"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "create_undead.zombie",
+   "create_undead.skeleton",
+   "create_undead.random"
+  ],
+  "chain": [
+   "CreateLesserUndeadMagic",
+   "CreateUndeadMagic"
+  ]
+ },
+ "tensura:creator": {
+  "class": "CreatorSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "creator.analytical_appraisal",
+   "creator.skill_creation"
+  ],
+  "chain": [
+   "CreatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:cryogenic_cessation": {
+  "class": "CryogenicCessationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "cryogenic_cessation.ice_breath",
+   "cryogenic_cessation.freezing_point"
+  ],
+  "chain": [
+   "CryogenicCessationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:cultivator": {
+  "class": "CultivatorSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [
+   "cultivator.breakthrough"
+  ],
+  "chain": [
+   "CultivatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:curse": {
+  "class": "CurseMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "CurseMagic",
+   "NecromancyMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:curse_bind": {
+  "class": "CurseBindMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "CurseBindMagic",
+   "NecromancyMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dark_cube": {
+  "class": "DarkCubeMagic",
+  "shift": [
+   "onHeld",
+   "onPressed",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarkCubeMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dark_eight_palms": {
+  "class": "DarkEightPalmsArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarkEightPalmsArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:darkness": {
+  "class": "DarknessMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarknessMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:darkness_cannon": {
+  "class": "DarknessCannonMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarknessCannonMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:darkness_domination": {
+  "class": "DarknessDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarknessDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:darkness_manipulation": {
+  "class": "DarknessManipulationSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarknessManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:darkness_transform": {
+  "class": "DarknessTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DarknessTransformSkill",
+   "ElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:death_march_dance": {
+  "class": "DeathMarchDanceArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DeathMarchDanceArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:degenerate": {
+  "class": "DegenerateSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "degenerate.crafting",
+   "degenerate.synthesise",
+   "degenerate.separate"
+  ],
+  "chain": [
+   "DegenerateSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:demon_dominate": {
+  "class": "DemonDominateMagic",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DemonDominateMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:demon_marionette": {
+  "class": "DemonMarionetteMagic",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DemonMarionetteMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:diamond_path": {
+  "class": "DiamondPathArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DiamondPathArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dimension_cutter": {
+  "class": "DimensionCutterMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DimensionCutterMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:discharge": {
+  "class": "DischargeSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DischargeSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:dissonance": {
+  "class": "DissonanceSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DissonanceSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:divine_berserker": {
+  "class": "DivineBerserkerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DivineBerserkerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dominate": {
+  "class": "DominateMagic",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DominateMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:doppelganger": {
+  "class": "DoppelgangerMagic",
+  "shift": [
+   "onHeld",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DoppelgangerMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dragon_ear": {
+  "class": "DragonEarSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DragonEarSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dragon_eye": {
+  "class": "DragonEyeSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DragonEyeSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:dragon_mode": {
+  "class": "DragonModeSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DragonModeSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:drainage": {
+  "class": "DrainageMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "DrainageMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:dreamer": {
+  "class": "DreamerSkill",
+  "shift": [
+   "dream"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "dreamer.dream",
+   "dreamer.hypnosis",
+   "dreamer.dream_eater"
+  ],
+  "chain": [
+   "DreamerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:earth_domination": {
+  "class": "EarthDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "earth_manipulation.wall",
+   "earth_manipulation.break",
+   "earth_manipulation.pit"
+  ],
+  "chain": [
+   "EarthDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:earth_wall": {
+  "class": "EarthWallMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 4,
+  "modeids": [],
+  "chain": [
+   "EarthWallMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:earthshatter_kick": {
+  "class": "EarthshatterKickArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "EarthshatterKickArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:eight_petals_flash": {
+  "class": "EightPetalsFlashArt",
+  "shift": [
+   "onHeld"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "EightPetalsFlashArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:electro_blast": {
+  "class": "ElectroBlastMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ElectroBlastMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:engineer": {
+  "class": "EngineerSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "engineer.build",
+   "engineer.bubble_shield"
+  ],
+  "chain": [
+   "EngineerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:engorger": {
+  "class": "EngorgerSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "EngorgerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:envy": {
+  "class": "EnvySkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "envy.absorb",
+   "envy.strength_sap"
+  ],
+  "chain": [
+   "EnvySkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:escape": {
+  "class": "EscapeMagic",
+  "shift": [
+   "getCastingTime",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "EscapeMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:explosion": {
+  "class": "ExplosionMagic",
+  "shift": [
+   "onPressed",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "explosion.trap",
+   "explosion.default"
+  ],
+  "chain": [
+   "ExplosionMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:falsifier": {
+  "class": "FalsifierSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "falsifier.concealment",
+   "falsifier.illusion",
+   "falsifier.fake_death"
+  ],
+  "chain": [
+   "FalsifierSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:fire_aspectual": {
+  "class": null
+ },
+ "tensura:fire_storm": {
+  "class": "FireStormMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "fire_storm.condensed",
+   "fire_storm.spread"
+  ],
+  "chain": [
+   "FireStormMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:fire_wall": {
+  "class": "FireWallMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FireWallMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:five_petals_thrust": {
+  "class": "FivePetalsThrustArt",
+  "shift": [
+   "onHeld"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FivePetalsThrustArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:flame_attack_nullification": {
+  "class": null
+ },
+ "tensura:flame_attack_resistance": {
+  "class": null
+ },
+ "tensura:flame_breath": {
+  "class": "FlameBreathSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FlameBreathSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:flame_domination": {
+  "class": "FlameDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FlameDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:flame_wall": {
+  "class": "FlameWallMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FlameWallMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:flare_circle": {
+  "class": "FlareCircleMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FlareCircleMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:flight": {
+  "class": "FlightMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FlightMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:float": {
+  "class": "FloatMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "float.projectile"
+  ],
+  "chain": [
+   "FloatMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:freeze": {
+  "class": "FreezeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "freeze.frost_walk"
+  ],
+  "chain": [
+   "FreezeMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:full_recovery": {
+  "class": "FullRecoveryMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "FullRecoveryMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:fusionist": {
+  "class": "FusionistSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "fusionist.disassemble",
+   "fusionist.fuse",
+   "fusionist.projectile"
+  ],
+  "chain": [
+   "FusionistSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:gardener": {
+  "class": "GardenerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "gardener.blessing",
+   "gardener.overgrow",
+   "gardener.entwine"
+  ],
+  "chain": [
+   "GardenerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:gatekeeper": {
+  "class": "GatekeeperSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "gatekeeper.enkidu",
+   "gatekeeper.kings_storehouse",
+   "gatekeeper.gate_of_babylon"
+  ],
+  "chain": [
+   "GatekeeperSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:giantification": {
+  "class": "GiantificationSkill",
+  "shift": [
+   "canScroll",
+   "onPressed",
+   "onRelease"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "GiantificationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:gluttony": {
+  "class": "GluttonySkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "onHeld",
+   "onPressed"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 7,
+  "modeids": [
+   "predator.predation",
+   "predator.stomach",
+   "predator.mimicry",
+   "predator.isolation",
+   "starved.corrosion",
+   "starved.receive",
+   "starved.provide"
+  ],
+  "chain": [
+   "GluttonySkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:godly_craftsman": {
+  "class": "GodlyCraftsmanSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "GodlyCraftsmanSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:gourmand": {
+  "class": "GourmandSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "GourmandSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:gravitational_void": {
+  "class": "GravitationalVoidMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "GravitationalVoidMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:gravity_domination": {
+  "class": "GravityDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "GravityDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:gravity_flux": {
+  "class": "GravityFluxSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "gravity_flux.fluctuate",
+   "gravity_flux.hamper"
+  ],
+  "chain": [
+   "GravityFluxSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:great_sage": {
+  "class": "GreatSageSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "great_sage.analytical_appraisal",
+   "great_sage.analysis",
+   "great_sage.refine"
+  ],
+  "chain": [
+   "GreatSageSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:greed": {
+  "class": "GreedSkill",
+  "shift": [
+   "onHeld",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "greed.spiritual",
+   "greed.flare",
+   "greed.death"
+  ],
+  "chain": [
+   "GreedSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:guardian": {
+  "class": "GuardianSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "guardian.grant",
+   "guardian.iron_wall"
+  ],
+  "chain": [
+   "GuardianSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:healer": {
+  "class": "HealerSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "healer.heal",
+   "healer.virus",
+   "healer.plague"
+  ],
+  "chain": [
+   "HealerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:healing": {
+  "class": "HealingMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HealingMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:healing_rain": {
+  "class": "HealingRainMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HealingRainMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:healthcare": {
+  "class": "HealthcareMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HealthcareMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:heavy_slash": {
+  "class": "HeavySlashArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HeavySlashArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:hell_hall": {
+  "class": "HellHallSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HellHallSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:hellfire": {
+  "class": "HellfireMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HellfireMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:hero_haki": {
+  "class": "HeroHakiSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HeroHakiSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:hidden_ruler": {
+  "class": "HiddenRulerSkill",
+  "shift": [
+   "onPressed",
+   "clearBank"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 4,
+  "modeids": [],
+  "chain": [
+   "HiddenRulerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:hypnos": {
+  "class": "HypnosMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "HypnosMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ice_blizzard": {
+  "class": "IceBlizzardMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IceBlizzardMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ice_breaker": {
+  "class": "IceBreakerMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IceBreakerMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ice_breath": {
+  "class": "IceBreathSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IceBreathSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:ice_domination": {
+  "class": "IceDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IceDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ice_wall": {
+  "class": "IceWallMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IceWallMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:icicle_lance": {
+  "class": "IcicleLanceMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "icicle_lance.shot"
+  ],
+  "chain": [
+   "IcicleLanceMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:icicle_rain": {
+  "class": "IcicleRainMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "icicle_rain.repeat"
+  ],
+  "chain": [
+   "IcicleRainMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:icicle_spear": {
+  "class": "IcicleSpearMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "IcicleSpearMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:infinity_prison": {
+  "class": "InfinityPrisonSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "infinity_prison.imprison",
+   "infinity_prison.imaginary_space"
+  ],
+  "chain": [
+   "InfinityPrisonSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:instant_move": {
+  "class": "InstantMoveArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "InstantMoveArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:invisible": {
+  "class": "InvisibleMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "InvisibleMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:jinchuriki": {
+  "class": "JinchurikiSkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "jinchuriki.tailed_beast_bomb",
+   "jinchuriki.tailed_beast_cloak"
+  ],
+  "chain": [
+   "JinchurikiSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:kyurem": {
+  "class": "KyuremSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "kyurem.glaciate",
+   "kyurem.draconic_pulse",
+   "kyurem.freeze_dry",
+   "kyurem.blizzard"
+  ],
+  "chain": [
+   "KyuremSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:law_manipulation": {
+  "class": "LawManipulationSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "law_manipulation.cleanse",
+   "law_manipulation.takeover"
+  ],
+  "chain": [
+   "LawManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:light": {
+  "class": "LightMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:light_domination": {
+  "class": "LightDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:light_manipulation": {
+  "class": "LightManipulationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:light_transform": {
+  "class": "LightTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightTransformSkill",
+   "ElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:lighten": {
+  "class": "LightenMagic",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightenMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:lightning_domination": {
+  "class": "LightningDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightningDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:lightning_lance": {
+  "class": "LightningLanceMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightningLanceMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:lightning_manipulation": {
+  "class": "LightningManipulationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightningManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:lightning_mode": {
+  "class": "LightningModeSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LightningModeSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:liquidize": {
+  "class": "LiquidizeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "LiquidizeMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:lust": {
+  "class": "LustSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 5,
+  "modeids": [
+   "lust.drain",
+   "lust.invigorate",
+   "lust.rebirth",
+   "lust.embracing_drain",
+   "lust.death_blessing"
+  ],
+  "chain": [
+   "LustSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_aura": {
+  "class": "MagicAuraSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 7,
+  "modeids": [
+   "magic_aura.default",
+   "magic_aura.holy",
+   "magic_aura.earth",
+   "magic_aura.fire",
+   "magic_aura.space",
+   "magic_aura.water",
+   "magic_aura.wind"
+  ],
+  "chain": [
+   "MagicAuraSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_barrier": {
+  "class": "MagicBarrierMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicBarrierMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_bullet": {
+  "class": "MagicBulletArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicBulletArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_darkness_transform": {
+  "class": "MagicDarknessTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicDarknessTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_earth_transform": {
+  "class": "MagicEarthTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicEarthTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_flame_transform": {
+  "class": "MagicFlameTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicFlameTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_light_transform": {
+  "class": "MagicLightTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicLightTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_space_transform": {
+  "class": "MagicSpaceTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicSpaceTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_wall": {
+  "class": "MagicWallMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicWallMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_water_transform": {
+  "class": "MagicWaterTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicWaterTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:magic_wind_transform": {
+  "class": "MagicWindTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MagicWindTransformSkill",
+   "MagicElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:malleable": {
+  "class": "MalleableSkill",
+  "shift": [
+   "canScroll",
+   "onPressed",
+   "onHeld"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "malleable.alchemy",
+   "malleable.harden",
+   "malleable.vessel"
+  ],
+  "chain": [
+   "MalleableSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:martial_master": {
+  "class": "MartialMasterSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MartialMasterSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:mathematician": {
+  "class": "MathematicianSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MathematicianSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:maximum_magic_bullet": {
+  "class": "MaximumMagicBulletArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MaximumMagicBulletArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:melancholy": {
+  "class": "MelancholySkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "melancholy.gust",
+   "melancholy.turbulent_force",
+   "melancholy.grief"
+  ],
+  "chain": [
+   "MelancholySkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:mental_crush": {
+  "class": "MentalCrushMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MentalCrushMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:merciless": {
+  "class": "MercilessSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "merciless.steal",
+   "merciless.consume"
+  ],
+  "chain": [
+   "MercilessSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:mirage": {
+  "class": "MirageMagic",
+  "shift": [
+   "getCastingTime",
+   "onHeld",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MirageMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:mithril_strength": {
+  "class": "MithrilStrengthSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MithrilStrengthSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:mud_hand": {
+  "class": "MudHandMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MudHandMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:mud_spears": {
+  "class": "MudSpearsMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "mud_spears.spread",
+   "mud_spears.target"
+  ],
+  "chain": [
+   "MudSpearsMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:multilayer_barrier": {
+  "class": "MultilayerBarrierSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MultilayerBarrierSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:murderer": {
+  "class": "MurdererSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "MurdererSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:musician": {
+  "class": "MusicianSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "musician.sonic_blast",
+   "musician.sound_wave",
+   "musician.mind_requiem"
+  ],
+  "chain": [
+   "MusicianSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:observer": {
+  "class": "ObserverSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "observer.danger",
+   "observer.presence"
+  ],
+  "chain": [
+   "ObserverSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ogre_berserker": {
+  "class": "OgreBerserkerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "OgreBerserkerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ogre_flame": {
+  "class": "OgreFlameArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "OgreFlameArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ogre_sword_cannon": {
+  "class": "OgreSwordCannonArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "OgreSwordCannonArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:oppressor": {
+  "class": "OppressorSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 5,
+  "modeids": [
+   "oppressor.repel",
+   "oppressor.attract",
+   "oppressor.oppress",
+   "oppressor.bleve",
+   "oppressor.flicker"
+  ],
+  "chain": [
+   "OppressorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:pain_nullification": {
+  "class": null
+ },
+ "mysticism:paralysis_transform": {
+  "class": "ParalysisTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ParalysisTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:phaser": {
+  "class": "PhaserSkill",
+  "shift": [
+   "onPressed",
+   "onHeld",
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [],
+  "chain": [
+   "PhaserSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:poison_transform": {
+  "class": "PoisonTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "PoisonTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:poisonous_breath": {
+  "class": "PoisonousBreathSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "PoisonousBreathSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:possession_magic": {
+  "class": null
+ },
+ "tensura:predator": {
+  "class": "PredatorSkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "predator.predation",
+   "predator.analysis",
+   "predator.stomach",
+   "predator.mimicry",
+   "predator.isolation"
+  ],
+  "chain": [
+   "PredatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:pride": {
+  "class": "PrideSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 1,
+  "modeids": [
+   "pride.copy"
+  ],
+  "chain": [
+   "PrideSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:profaned_prominence": {
+  "class": "ProfanedProminenceSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "profaned_prominence.fire_breath",
+   "profaned_prominence.providence"
+  ],
+  "chain": [
+   "ProfanedProminenceSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:protection": {
+  "class": "ProtectionMagic",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ProtectionMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:provider": {
+  "class": "ProviderSkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "provider.generosity",
+   "provider.pay_it_forward"
+  ],
+  "chain": [
+   "ProviderSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:ranged_barrier": {
+  "class": "RangedBarrierSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [],
+  "chain": [
+   "RangedBarrierSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reaper": {
+  "class": "ReaperSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "reaper.attack",
+   "reaper.eater"
+  ],
+  "chain": [
+   "ReaperSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:recovery": {
+  "class": "RecoveryMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "RecoveryMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:reducer": {
+  "class": "ReducerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "reducer.emancipation",
+   "reducer.purity_edge"
+  ],
+  "chain": [
+   "ReducerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reflector": {
+  "class": "ReflectorSkill",
+  "shift": [
+   "canScroll",
+   "onPressed"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "reflector.reflection",
+   "reflector.counter"
+  ],
+  "chain": [
+   "ReflectorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reincarnation": {
+  "class": "ReincarnationMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ReincarnationMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reinforced_barrier": {
+  "class": "ReinforcedBarrierMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 3,
+  "modeids": [
+   "reinforced_barrier.magic",
+   "reinforced_barrier.physic",
+   "reinforced_barrier.combined"
+  ],
+  "chain": [
+   "ReinforcedBarrierMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reinforcement": {
+  "class": "ReinforcementMagic",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ReinforcementMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:relapse": {
+  "class": "RelapseSkill",
+  "shift": [
+   "canIgnoreCoolDown",
+   "forgottenMode"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "relapse.aleph",
+   "relapse.bet",
+   "relapse.gimel",
+   "relapse.daleth",
+   "relapse.aleph_null"
+  ],
+  "chain": [
+   "RelapseSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:repeater": {
+  "class": "RepeaterSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "repeater.recursion_depth",
+   "repeater.flarefrost_storehouse"
+  ],
+  "chain": [
+   "RepeaterSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:researcher": {
+  "class": "ResearcherSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ResearcherSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:reshiram": {
+  "class": "ReshiramSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "reshiram.blue_flare",
+   "reshiram.fusion_flare",
+   "reshiram.draconic_meteor",
+   "reshiram.flamethrower"
+  ],
+  "chain": [
+   "ReshiramSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:restricted": {
+  "class": "RestrictedSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "restricted.dash",
+   "restricted.counter"
+  ],
+  "chain": [
+   "RestrictedSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:reverser": {
+  "class": "ReverserSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "reverser.reverse",
+   "reverser.buff",
+   "reverser.debuff"
+  ],
+  "chain": [
+   "ReverserSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:roaring_lion_punch": {
+  "class": "RoaringLionPunchArt",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "RoaringLionPunchArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:royal_beast": {
+  "class": "RoyalBeastSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "RoyalBeastSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:sacred_haki": {
+  "class": "SacredHakiSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "haki.release",
+   "haki.coat"
+  ],
+  "chain": [
+   "SacredHakiSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:scholar": {
+  "class": "ScholarSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 1,
+  "modeids": [],
+  "chain": [
+   "ScholarSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:search_enemy": {
+  "class": "SearchEnemyMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "search_enemy.constant"
+  ],
+  "chain": [
+   "SearchEnemyMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:seeker": {
+  "class": "SeekerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SeekerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:seer": {
+  "class": "SeerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SeerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:severer": {
+  "class": "SevererSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "severer.sword",
+   "severer.blade_storm",
+   "severer.severance"
+  ],
+  "chain": [
+   "SevererSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:shadow_bind": {
+  "class": "ShadowBindMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ShadowBindMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:shadow_striker": {
+  "class": "ShadowStrikerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "shadow_striker.ultra_acceleration",
+   "shadow_striker.insta_kill",
+   "shadow_striker.espionage"
+  ],
+  "chain": [
+   "ShadowStrikerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:sleep_mist": {
+  "class": "SleepMistMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SleepMistMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:sloth": {
+  "class": "SlothSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 6,
+  "modeids": [
+   "sloth.deep_hypno",
+   "sloth.fallen_hypno",
+   "sloth.deprive",
+   "sloth.rest",
+   "sloth.phantasmal_style",
+   "sloth.fallen_strike"
+  ],
+  "chain": [
+   "SlothSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:snake_eye": {
+  "class": "SnakeEyeSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "snake_eye.corrosion",
+   "snake_eye.poison",
+   "snake_eye.paralysis",
+   "snake_eye.petrification",
+   "snake_eye.insanity"
+  ],
+  "chain": [
+   "SnakeEyeSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:solar_beam": {
+  "class": "SolarBeamMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SolarBeamMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:solar_flare": {
+  "class": "SolarFlareMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SolarFlareMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:solar_rain": {
+  "class": "SolarRainMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SolarRainMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:solar_wave": {
+  "class": "SolarWaveMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SolarWaveMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:space_transform": {
+  "class": "SpaceTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SpaceTransformSkill",
+   "ElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:spatial_domination": {
+  "class": "SpatialDominationSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 5,
+  "modeids": [
+   "spatial_domination.warp_shot",
+   "spatial_domination.spatial_cleanse",
+   "spatial_domination.ray",
+   "spatial_domination.storm",
+   "spatial_domination.fault_field"
+  ],
+  "chain": [
+   "SpatialDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:spatial_motion": {
+  "class": "SpatialMotionSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "spatial_motion.blink",
+   "spatial_motion.warp"
+  ],
+  "chain": [
+   "SpatialMotionSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:spatial_storage": {
+  "class": "SpatialStorageMagic",
+  "shift": [
+   "onRelease"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "spatial_storage.dress",
+   "spatial_storage.bag"
+  ],
+  "chain": [
+   "SpatialStorageMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:spearhead": {
+  "class": "SpearheadSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SpearheadSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:spiritualist": {
+  "class": "SpiritualistSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "spiritualist.summon_scythe",
+   "spiritualist.carve",
+   "spiritualist.enhance"
+  ],
+  "chain": [
+   "SpiritualistSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:stagnator": {
+  "class": "StagnatorSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "stagnator.stagnate_aura",
+   "stagnator.inaction",
+   "stagnator.stasis_coat",
+   "stagnator.stasis_shot"
+  ],
+  "chain": [
+   "StagnatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:starved": {
+  "class": "StarvedSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "starved.corrosion",
+   "starved.stomach",
+   "starved.receive",
+   "starved.provide"
+  ],
+  "chain": [
+   "StarvedSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:sticky_steel_thread": {
+  "class": "StickySteelThreadSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 4,
+  "modeids": [
+   "sticky_steel_thread.sticky",
+   "sticky_steel_thread.steel",
+   "sticky_steel_thread.slinger",
+   "sticky_steel_thread.arcane_thread"
+  ],
+  "chain": [
+   "StickySteelThreadSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:strength_aspectual": {
+  "class": null
+ },
+ "mysticism:subjugator": {
+  "class": "SubjugatorSkill",
+  "shift": [],
+  "scroll": true,
+  "held": false,
+  "pressed": true,
+  "release": true,
+  "modes": 6,
+  "modeids": [],
+  "chain": [
+   "SubjugatorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:summon_basilisk": {
+  "class": "SummonBasiliskMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SummonBasiliskMagic",
+   "SummoningMagic"
+  ]
+ },
+ "tensura:summon_daemon": {
+  "class": "SummonDaemonMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": 4,
+  "modeids": [],
+  "chain": [
+   "SummonDaemonMagic",
+   "SummoningMagic"
+  ]
+ },
+ "tensura:summon_hound_dog": {
+  "class": "SummonHoundDogMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SummonHoundDogMagic",
+   "SummoningMagic"
+  ]
+ },
+ "tensura:summon_otherworlder": {
+  "class": "SummonOtherworlderMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SummonOtherworlderMagic",
+   "SummoningMagic"
+  ]
+ },
+ "tensura:suppressor": {
+  "class": "SuppressorSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "suppressor.blockade",
+   "suppressor.swap",
+   "suppressor.motion"
+  ],
+  "chain": [
+   "SuppressorSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:swipe": {
+  "class": "SwipeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "SwipeMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thrower": {
+  "class": "ThrowerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ThrowerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thunder": {
+  "class": "ThunderMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ThunderMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thunder_breath": {
+  "class": "ThunderBreathSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ThunderBreathSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thunder_lance": {
+  "class": "ThunderLanceMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "thunder_lance.rain",
+   "thunder_lance.single"
+  ],
+  "chain": [
+   "ThunderLanceMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thunder_orb": {
+  "class": "ThunderOrbMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ThunderOrbMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:thunder_rain": {
+  "class": "ThunderRainMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "thunder_rain.coat",
+   "thunder_rain.rain"
+  ],
+  "chain": [
+   "ThunderRainMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:titanification": {
+  "class": "TitanificationSkill",
+  "shift": [
+   "canScroll",
+   "canIgnoreCoolDown",
+   "onPressed",
+   "onRelease",
+   "onHeld"
+  ],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "TitanificationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:tornado_blade": {
+  "class": "TornadoBladeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "TornadoBladeMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:traveler": {
+  "class": "TravelerSkill",
+  "shift": [
+   "warpShotArrow"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 5,
+  "modeids": [
+   "traveler.instant_motion",
+   "traveler.teleport",
+   "sniper.spatial",
+   "traveler.stardust_arrow",
+   "traveler.stardust_rain"
+  ],
+  "chain": [
+   "TravelerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:true_darkness": {
+  "class": "TrueDarknessMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "TrueDarknessMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:unyielding": {
+  "class": "UnyieldingSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "unyielding.return",
+   "unyielding.backup"
+  ],
+  "chain": [
+   "UnyieldingSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:usurper": {
+  "class": "UsurperSkill",
+  "shift": [
+   "onPressed"
+  ],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "usurper.rob",
+   "usurper.copy",
+   "usurper.force_takeover"
+  ],
+  "chain": [
+   "UsurperSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:victorious_harbinger": {
+  "class": "VictoriousHarbingerSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "victorious_harbinger.might",
+   "victorious_harbinger.tenacious_resolve"
+  ],
+  "chain": [
+   "VictoriousHarbingerSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:villain": {
+  "class": "VillainSkill",
+  "shift": [],
+  "scroll": true,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 2,
+  "modeids": [
+   "villain.haki",
+   "villain.charisma"
+  ],
+  "chain": [
+   "VillainSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:violent_break": {
+  "class": "ViolentBreakArt",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "ViolentBreakArt",
+   "Battlewill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:warp_portal": {
+  "class": "WarpPortalMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WarpPortalMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:water_aspectual": {
+  "class": null
+ },
+ "tensura:water_cutter_aspectual": {
+  "class": null
+ },
+ "tensura:water_domination": {
+  "class": "WaterDominationSkill",
+  "shift": [
+   "getMagiculeCost",
+   "onPressed",
+   "onHeld"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WaterDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:water_jail": {
+  "class": "WaterJailMagic",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WaterJailMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:weather_domination": {
+  "class": "WeatherDominationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "weather_manipulation.clear",
+   "weather_manipulation.rain",
+   "weather_manipulation.thunder"
+  ],
+  "chain": [
+   "WeatherDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:weather_manipulation": {
+  "class": "WeatherManipulationSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": true,
+  "release": false,
+  "modes": 3,
+  "modeids": [
+   "weather_manipulation.clear",
+   "weather_manipulation.rain",
+   "weather_manipulation.thunder"
+  ],
+  "chain": [
+   "WeatherManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind": {
+  "class": "WindMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind_blade": {
+  "class": "WindBladeMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindBladeMagic",
+   "SpiritualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind_domination": {
+  "class": "WindDominationSkill",
+  "shift": [
+   "getMagiculeCost",
+   "onPressed",
+   "onHeld"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindDominationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind_manipulation": {
+  "class": "WindManipulationSkill",
+  "shift": [
+   "getMagiculeCost",
+   "onPressed",
+   "onHeld"
+  ],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindManipulationSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind_protection": {
+  "class": "WindProtectionMagic",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": true,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindProtectionMagic",
+   "AspectualMagic",
+   "Magic",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wind_transform": {
+  "class": "WindTransformSkill",
+  "shift": [],
+  "scroll": false,
+  "held": false,
+  "pressed": false,
+  "release": false,
+  "modes": null,
+  "modeids": [],
+  "chain": [
+   "WindTransformSkill",
+   "ElementalTransformSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "tensura:wrath": {
+  "class": "WrathSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": false,
+  "release": false,
+  "modes": 2,
+  "modeids": [
+   "wrath.breader",
+   "wrath.enrage"
+  ],
+  "chain": [
+   "WrathSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ },
+ "mysticism:zekrom": {
+  "class": "ZekromSkill",
+  "shift": [],
+  "scroll": false,
+  "held": true,
+  "pressed": true,
+  "release": true,
+  "modes": 4,
+  "modeids": [
+   "zekrom.bolt_strike",
+   "zekrom.fusion_bolt",
+   "zekrom.draconic_breath",
+   "zekrom.thunderbolt"
+  ],
+  "chain": [
+   "ZekromSkill",
+   "Skill",
+   "TensuraSkill"
+  ]
+ }
+}

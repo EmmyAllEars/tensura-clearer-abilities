@@ -6,8 +6,11 @@ R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANG={'tensura':json.load(open(sys.argv[1])),'mysticism':json.load(open(sys.argv[2]))}
 ref={a['id']:a for a in json.load(open(os.path.expanduser('~/code/tensura-guide/work/data.json')))['abilities']}
 ctl=json.load(open(os.path.join(R,'data/controls.json')))
-use=json.load(open(os.path.join(R,'data/abilities_in_use.json')))
+if os.path.exists(os.path.join(R,'data/controls_rest.json')): ctl.update(json.load(open(os.path.join(R,'data/controls_rest.json'))))
+use=list(ref)  # every ability in Tensura and Mysticism; data/abilities_in_use.json records what the family had
 H=json.load(open(os.path.join(R,'data/handwritten.json')))
+AW=os.path.join(R,'data/agent_written.json')
+if os.path.exists(AW): H={**json.load(open(AW)),**H}  # handwritten wins
 E='§e';G='§6';B='§b';X='§r'
 SNEAK={
  'tensura:analytical_appraisal':f'{E}Sneak + press{X}: switch what it analyses (entities, blocks or both).',
@@ -34,7 +37,8 @@ for sid in use:
     if key in H: out[ns][key]=H[key]; continue
     a=ref.get(sid); c=ctl.get(sid,{})
     orig=LANG[ns].get(key)
-    if not a or not orig or not c.get('class') or a['use']=='Unknown': skipped.append(sid); continue
+    passive = a is not None and a['use'] in ('Passive','Always on')
+    if not a or not orig or a['use']=='Unknown' or (not passive and not c.get('class')): skipped.append(sid); continue
     lines=[]
     if a['use'] in ('Passive','Always on'):
         lines.append(f'{B}Passive{X}: always on.')

@@ -65,7 +65,7 @@
   "tensura.skill.water.description": "Creates water, up to 4 blocks away; also fills cauldrons.\n§eHold 1s, release§r. Modes set the size (1×1 up to 10×10).",
   "tensura.skill.water_blade.description": "A fast blade of water: 40 damage. Uses 1 point of water (Gourmet's Stomach water works).\n§ePress§r.",
   "tensura.skill.water_cutter.description": "A cutting blade of water: 40 damage plus 30.\n§eHold 1.5s, release§r. §6Repeat§r mode keeps firing while held.",
-  "tensura.skill.water_manipulation.description": "§bPassive§r: water abilities +50%.\n§ePress§r: water breath. §eHold§r: water balls (12 damage). Both need water.",
+  "tensura.skill.water_manipulation.description": "§bPassive§r: water abilities +50%.\n§eHold§r: water breath, 8 damage.\n§eSneak+press§r: water ball, 12 damage.\nBoth need water nearby or stored water.",
   "tensura.skill.water_transform.description": "Merge with water: everything within 5 blocks takes 2 damage a second and is Poisoned.\n§eHold§r to keep it up.",
   "tensura.skill.wind_cutter.description": "Blades of wind: 30 damage plus 10.\n§eHold 2s, release§r.",
   "tensura.skill.wind_gust.description": "A strong gust that shoves things away.\n§eHold 1s, release§r."
