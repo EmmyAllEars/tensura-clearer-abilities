@@ -1,4 +1,4 @@
 {
   "mysticism.skill.exoskeleton.description": "Insect plating; armor fits over it.\n§eHold§r to use. Once mastered, §epress§r to toggle.",
-  "mysticism.skill.ice_manipulation.description": "§bPassive§r while toggled on; §epress§r to toggle.\n§7Boosts the power of ice abilities by a decent amount."
+  "mysticism.skill.ice_manipulation.description": "§bPassive§r: ice abilities +50%.\n§eHold§r: ice breath, 12 damage (24 mastered). 500 magicule."
 }
