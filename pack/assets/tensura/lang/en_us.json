@@ -37,7 +37,7 @@
   "tensura.skill.gate.description": "§eHold§r to cast, then release.\n§7Tear space asunder connecting two points in space.",
   "tensura.skill.gourmet.description": "Eat foes for their skills and EP.\n§6Predation§r §epress§r: devouring mist. §esneak+press§r: also eat None/Blocks/Fluid/All.\n§6Corrosion§r §ehold§r: hurts all within 5.\n§6Stomach§r §epress§r: storage.\n§6Receive§r §epress§r on a subordinate: copy its skills.\n§6Provide§r: no effect found.",
   "tensura.skill.gravity_attack_resistance.description": "§bPassive§r: always on.\n§7Ignore weaker gravity-based damage or reduce the damage from stronger attacks.",
-  "tensura.skill.gravity_field.description": "§ePress§r to use.\n§6Modes§r: 20x20 Field, 10x10 Field, Self-radius.\n§eSneak + press§r: cancel the field.\n§7Weaken gravity around yourself to make movement easier or create a variously sized sphere granting previous effects while debuffing enemies.",
+  "tensura.skill.gravity_field.description": "Lighter gravity: Speed III and Slow Falling for 60s.\n§6Self-radius§r §epress§r: on you. §esneak+press§r: end it.\n§6Field§r modes §epress§r: a sphere where allies get the same and enemies get Slowness and Burden. §esneak+press§r looking at it: remove.",
   "tensura.skill.gravity_flight.description": "§eHold§r to use.\n§7Manipulate gravity to allow flight, your momentum from before will be continued.",
   "tensura.skill.gravity_manipulation.description": "§bPassive§r while toggled on; §epress§r to toggle.\n§7Boosts Gravity abilities by a decent amount and allows you to fly without hindrance.",
   "tensura.skill.haki.description": "Scares anything under half your EP; far weaker foes die of fear.\n§eHold§r: aura on, 15 blocks.\n§eScroll§r (mastered): Power Scale.",
